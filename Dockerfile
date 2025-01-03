@@ -1,2 +1,2 @@
-FROM golang:1.20 AS builder
-COPY . /app
+FROM nginx
+COPY . /usr/share/nginx/htgml
